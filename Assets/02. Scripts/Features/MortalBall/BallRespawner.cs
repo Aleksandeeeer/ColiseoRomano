@@ -14,7 +14,7 @@ public class BallRespawner : MonoBehaviour
 
     [SerializeField]
     [Tooltip("Variation in position in which the ball can appear")]
-    [Range(0.01f, 0.5f)]
+    [Range(0.01f, 5f)]
     private float _positionVariation = 0.2f;
 
     private Rigidbody _rb;
