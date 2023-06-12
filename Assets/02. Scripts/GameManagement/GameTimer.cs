@@ -28,6 +28,7 @@ public class GameTimer : MonoBehaviour
     {
         if (instance != null)
             Destroy(gameObject);
+        
         instance = this;
         _timer = _preparationDuration;
     }

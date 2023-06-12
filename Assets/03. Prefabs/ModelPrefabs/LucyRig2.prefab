@@ -2663,7 +2663,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 8723648812475534492}
   m_AABB:
-    m_Center: {x: -0.00008190796, y: -0.002830862, z: 0.0006268495}
+    m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0.016178064, y: 0.023919426, z: 0.007362935}
   m_DirtyAABB: 0
 --- !u!1 &4433262046134609811
@@ -3141,7 +3141,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 0bd5aa8b801bf8d45916b3b9b42dc37f, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 

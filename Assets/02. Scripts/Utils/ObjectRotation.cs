@@ -9,6 +9,19 @@ public class ObjectRotation : MonoBehaviour
     [Tooltip("The vector which the object will rotate around")]
     private Vector3 _axis = Vector3.up;
 
+    private void OnEnable() {
+        GameTimer.OnTimerEnded += OnTimerEnded;
+    }
+
+    private void OnDisable() {
+        GameTimer.OnTimerEnded -= OnTimerEnded;
+    }
+
+    private void OnTimerEnded()
+    {
+        gameObject.SetActive(false);
+    }
+
     // Starts with a random rotation
     private void Start()
     {
