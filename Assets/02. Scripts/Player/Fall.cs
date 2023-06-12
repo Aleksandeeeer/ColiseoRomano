@@ -14,4 +14,13 @@ public class Fall : MonoBehaviour
             transform.position = _returnToPosition;
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Fall"))
+        {
+            Debug.Log("Player got hit");
+            transform.position = _returnToPosition;
+        }
+    }
 }

@@ -1,0 +1,5 @@
+- Fall.cs
+- BallRespawner.cs
+- Ball needs to have tag "fall"
+- Ball needs rigidbody
+- Ball needs BallRespawner.cs
