@@ -110,7 +110,7 @@ Material:
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _RimStep: 0.105
+    - _RimStep: 0.092
     - _RimStepSmooth: 1
     - _ShadowStep: 0
     - _ShadowStepSmooth: 1
