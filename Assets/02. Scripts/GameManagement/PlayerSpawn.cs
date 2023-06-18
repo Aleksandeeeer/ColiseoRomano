@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerSpawn : MonoBehaviour
 {
     [SerializeField]
-    [Tooltip("In which places will the players spawn?")]
+    [Tooltip("In wich places will the players spawn?")]
     private Transform[] _spawnPositions;
     [SerializeField]
     [Tooltip("What are the model prefabs?")]
